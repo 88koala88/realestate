@@ -178,4 +178,3 @@ for regal_code_val in regal_code_list:  # 법정동 코드
                 log_df.to_csv(f'log_{file_nm}.csv', index = False, mode = 'a', header = False)    
 
             print('failed')
-

@@ -23,7 +23,6 @@ years = ['2020', '2021', '2022']
 # 월
 months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
 
-
 # api 요청 변수 생성
 years_month_list = []
 
@@ -173,4 +172,3 @@ for regal_code_val in regal_code_list:  # 법정동 코드
                 log_df.to_csv(f'log_{file_nm}.csv', index = False, mode = 'a', header = False)    
 
             print('failed')
-

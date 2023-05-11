@@ -37,8 +37,8 @@ years_month_list
 
 
 api_key = 'gdCwHED9I7qCHpJ2Umgc5tRA7zwN%2Fjj0sirO0Tz%2BahYoxq5vAGa0aO83isENeZvplygxLnlwI9%2Fk0wkfMyfCWw%3D%3D'
-LAWD_CD_VAL = '11110'
-DEAL_YMD_VAL = '202001'
+#LAWD_CD_VAL = '11110'
+#DEAL_YMD_VAL = '202001'
 
 
 # url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptRent?'
@@ -108,7 +108,7 @@ for regal_code_val in regal_code_list:  # 법정동 코드
         print(f'{regal_code_val}_{year_month_val}')
         
         url = f'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvc{file_nm}?'
-        params = 'serviceKey=' + api_key + '&' +         'LAWD_CD=' + LAWD_CD_VAL + '&' +         'DEAL_YMD=' + DEAL_YMD_VAL
+        params = 'serviceKey=' + api_key + '&' + 'LAWD_CD=' + str(regal_code_val) + '&' + 'DEAL_YMD=' + year_month_val
 
         try:
             

@@ -33,7 +33,6 @@ for year in years :
 regal_code_list
 years_month_list
 
-
 api_key = 'gdCwHED9I7qCHpJ2Umgc5tRA7zwN%2Fjj0sirO0Tz%2BahYoxq5vAGa0aO83isENeZvplygxLnlwI9%2Fk0wkfMyfCWw%3D%3D'
 #LAWD_CD_VAL = '11110'
 #DEAL_YMD_VAL = '202001'
